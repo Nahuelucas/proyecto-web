@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 13px;
+    font-family: 'Oswald', sans-serif
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* margen*/
+.contain {
+    width: 100%;
+    margin: auto;
+}
+
+.nav-mainn {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60;
+    padding: 20px;
+
+}
+
+/* navegacion izquierda*/
+.nav-mainn ul {
+    display: flex;
+}
+
+.nav-mainn ul li {
+    padding: 35px;
+}
+
+.nav-main ul li a {
+    padding: 1px;
+}
+/*para enlace, color*/
+.nav-mainn ul li a:hover {
+    border-bottom: 2px solid blue
+}
+
+.nav-mainn ul.nav-menuu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+h1 {
+    border: steelblue;
+    margin: 20px;
+    padding: 20px;
+    background: steelblue;
+    text-align: center;
+    height: 100px;
+    color: white;
+}
